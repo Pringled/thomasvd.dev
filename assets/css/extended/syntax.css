@@ -1,17 +1,21 @@
-/* Light mode syntax highlighting (GitHub style) */
-:root {
+/* Light mode syntax highlighting (GitHub style - updated colors) */
+:root,
+body,
+body[data-theme="light"],
+.list {
   --code-bg: #f6f8fa;
-  --code-fg: #24292e;
-  --code-keyword: #d73a49;
-  --code-string: #032f62;
-  --code-comment: #6a737d;
-  --code-function: #6f42c1;
-  --code-number: #005cc5;
-  --code-operator: #d73a49;
+  --code-fg: #1f2328;
+  --code-keyword: #cf222e;
+  --code-string: #0a3069;
+  --code-comment: #6e7781;
+  --code-function: #8250df;
+  --code-number: #0550ae;
+  --code-operator: #cf222e;
 }
 
 /* Dark mode syntax highlighting (VSCode Dark+ inspired) */
-[data-theme="dark"] {
+body[data-theme="dark"],
+.dark {
   --code-bg: #1e1e1e;
   --code-fg: #d4d4d4;
   --code-keyword: #569cd6;
@@ -20,6 +24,33 @@
   --code-function: #dcdcaa;
   --code-number: #b5cea8;
   --code-operator: #d4d4d4;
+}
+
+/* Fallback for auto theme based on prefers-color-scheme */
+@media (prefers-color-scheme: light) {
+  body {
+    --code-bg: #f6f8fa;
+    --code-fg: #1f2328;
+    --code-keyword: #cf222e;
+    --code-string: #0a3069;
+    --code-comment: #6e7781;
+    --code-function: #8250df;
+    --code-number: #0550ae;
+    --code-operator: #cf222e;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    --code-bg: #1e1e1e;
+    --code-fg: #d4d4d4;
+    --code-keyword: #569cd6;
+    --code-string: #ce9178;
+    --code-comment: #6a9955;
+    --code-function: #dcdcaa;
+    --code-number: #b5cea8;
+    --code-operator: #d4d4d4;
+  }
 }
 
 /* Code block styling */
