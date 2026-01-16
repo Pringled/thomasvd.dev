@@ -4,41 +4,88 @@ title: "About"
 
 ## Summary
 
-Lead ML engineer focused on practical, production-grade machine learning systems. I specialize in embeddings, semantic search, and model evaluation—building tools that are fast, efficient, and actually work in production.
+Head of AI Engineering at Springer Nature, where I lead a team building AI-driven solutions that improve scientific publishing. I specialize in recommender systems, information retrieval, and building practical ML systems that scale. 
+
+Co-founder of [Minish](https://github.com/MinishLab), an open-source ML lab focused on efficient, eco-friendly models. Creator of Model2Vec, SemHash, Vicinity, and the Potion embedding models.
 
 ## Experience
 
-**Springer Nature** — Lead Machine Learning Engineer  
-*2020 - Present*
+**Springer Nature** — Head of AI Engineering  
+*Dec 2024 - Present • Groningen, Netherlands*
 
-- Lead development of semantic search and recommendation systems
-- Built Model2Vec: lightweight embedding models used across the organization
-- Own ML infrastructure, evaluation frameworks, and production deployment
+Leading a team of engineers building AI-driven solutions for scientific publishing. Currently working on research discovery tools, compliance screening systems, and driving the adoption of generative AI across the organization. Responsible for team growth, technical strategy, and bringing ML products from research to production.
 
-**Previous Company** — ML Engineer  
-*2018 - 2020*
+**Springer Nature** — Senior Machine Learning Engineer  
+*Oct 2023 - Dec 2024 • Groningen*
 
-- Key achievement or responsibility
-- Key achievement or responsibility
+The Slimmer AI science division was acquired by Springer Nature after successfully working on ML products together for a number of years. I continued my role as technical lead of the recommenders team.
 
-## Skills
+**Minish** — Co-founder  
+*Sep 2024 - Present (part-time) • Groningen, Netherlands*
 
-**Machine Learning**: Embeddings, semantic search, model distillation, evaluation, MLOps  
-**Engineering**: Python, PyTorch, Rust, FastAPI, Docker, CI/CD  
-**Infrastructure**: AWS/GCP, vector databases, monitoring, production ML systems
+Developing open-source ML software with a focus on efficiency and eco-friendly models. Our GitHub org: [MinishLab](https://github.com/MinishLab).
+
+We are currently working on the following open-source projects:
+- Model2Vec: Fast State-of-the-Art Static Embeddings
+- Vicinity: Lightweight Nearest Neighbors with Flexible Backends
+- SemHash: Fast Semantic Text Deduplication
+- Potion models: State-of-the-art Static Embedding Models
+
+**Slimmer AI** — Machine Learning Engineer  
+*May 2021 - Oct 2023 • Groningen*
+
+Worked as a machine learning engineer and tech lead of the recommenders team, developing ML products in the scientific domain.
+
+**Gronalytica** — Co-founder  
+*Jun 2019 - May 2021 • Groningen, Netherlands*
+
+Developed a platform for automatic grading of pharmaceutical exams at pharmagrader.com. Funded by SNN.
+
+**iChoice4U BV** — Data Scientist  
+*Dec 2017 - May 2019 • UMCG, Groningen*
+
+Worked as a data scientist/research assistant on data from Pscribe.
 
 ## Education
 
-**University Name** — Degree in Computer Science / ML  
-*Year*
+**University of Groningen** — Master's degree, Artificial Intelligence  
+*2018 - 2020*
 
-## Selected Work
+Graduated cum laude (9.5 thesis, 8.4 average grade).  
+Thesis title: "Quality Prediction of Scientific Documents Using Textual and Visual Content"
 
-- **Model2Vec** — [Paper](https://arxiv.org/abs/2406.10890) • [Code](https://github.com/MinishLab/model2vec)
-- Talk/podcast appearances (if any)
+**University of Groningen** — Bachelor's degree, Information Science  
+*2015 - 2018*
+
+## Open Source Projects
+
+- **[Model2Vec](https://github.com/MinishLab/model2vec)** — A distillation framework for creating state-of-the-art static embeddings from Sentence Transformers. Encodes up to 20k embeddings/s on CPU with a 10% MTEB improvement over prior static embedding baselines.
+
+- **[SemHash](https://github.com/MinishLab/semhash)** — A package for semantic text deduplication; used in a number of research publications to filter pre-training datasets.
+
+- **[Vicinity](https://github.com/MinishLab/vicinity)** — A unified ANN interface for many ANN algorithms that includes evaluation tools.
+
+- **[Potion models](https://huggingface.co/collections/minishlab/potion-base-models-667288dfd5f3048eb83ea)** — Tiny state-of-the-art static embedding models. Pre-trained models include English, Multilingual, and retrieval models.
+
+## Publications
+
+- Thomas van Dongen, Gideon Maillette de Buy Wenniger, Lambert Schomaker. **MultiSChuBERT: Effective Multimodal Fusion for Scholarly Document Quality Prediction**. arXiv:2308.07971, 2023. [DOI](https://arxiv.org/abs/2308.07971)
+
+- Thomas van Dongen, Gideon Maillette de Buy Wenniger, Lambert Schomaker. **SChuBERT: Scholarly Document Chunks with BERT-encoding Boost Citation Count Prediction**. ACL SDP Workshop, 2020. [DOI](https://aclanthology.org/2020.sdp-1.17/)
+
+- Gideon Maillette de Buy Wenniger, Thomas van Dongen, et al. **Structure-Tags Improve Text Classification for Scholarly Document Quality Prediction**. ACL SDP Workshop, 2020. [DOI](https://aclanthology.org/2020.sdp-1.18/)
+
+## Technical Writing
+
+- [Model2Vec: Distill a Small Fast Model from any Sentence Transformer](https://huggingface.co/blog/model2vec) — Hugging Face Blog, 2024
+- [Demystifying Efficient Self-Attention](https://towardsdatascience.com/demystifying-efficient-self-attention-b3de61d2f1fd) — Towards Data Science, 2022
+- [Overcoming Input Length Constraints of Transformers](https://towardsdatascience.com/overcoming-input-length-constraints-of-transformers-9c10a2c0f6f8) — Towards Data Science, 2020
+- [Minish technical blog](https://minish.nl/blog) — Large number of technical posts related to open-source work
 
 ## Contact
 
-- **Email**: [contact@pringled.dev](mailto:contact@pringled.dev)
+- **Email**: [thomas123@live.nl](mailto:thomas123@live.nl)
 - **GitHub**: [@Pringled](https://github.com/Pringled)
 - **LinkedIn**: [thomas-van-dongen](https://linkedin.com/in/thomas-van-dongen)
+- **Google Scholar**: [Profile](https://scholar.google.com/citations?user=2Yc0IXMAAAAJ)
+- **X/Twitter**: [@thomas_v_dongen](https://x.com/thomas_v_dongen)

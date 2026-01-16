@@ -1,75 +1,79 @@
-baseURL = 'https://pringled.dev/'
-languageCode = 'en-us'
-title = 'pringled.dev'
-theme = 'PaperMod'
+baseURL = "https://pringled.dev/"
+languageCode = "en-us"
+title = "pringled.dev"
+theme = "PaperMod"
 
 [params]
-  description = "Lead ML engineer. Building small, practical ML systems."
   author = "Thomas van Dongen"
-  
-  # Home page
-  [params.homeInfoParams]
-    Title = "Hi, I'm Thomas 👋"
-    Content = """
-Lead ML engineer. I build small, practical ML systems—embeddings, retrieval, evaluation, tooling.
+  description = "Lead ML engineer building small, practical ML systems."
 
-Currently focused on lightweight embedding models and production ML pragmatism.
-"""
+  # Theme behavior
+  defaultTheme = "auto"
+  disableThemeToggle = false
+  disableSpecial1stPost = true
+  ShowShareButtons = false
+  ShowBreadCrumbs = false
+  ShowPostNavLinks = true
+  ShowCodeCopyButtons = true
+  ShowReadingTime = false
+  ShowRssButtonInSectionTermList = true
+  ShowToc = false
+  math = true
 
-  # Social links (displayed as icons in header/footer)
+  # Social icons (header / profile)
   [[params.socialIcons]]
     name = "github"
     url = "https://github.com/Pringled"
-  
+
   [[params.socialIcons]]
     name = "linkedin"
     url = "https://linkedin.com/in/thomas-van-dongen"
-  
+
+  [[params.socialIcons]]
+    name = "x"
+    url = "https://x.com/thomas_v_dongen"
+
+  [[params.socialIcons]]
+    name = "googlescholar"
+    url = "https://scholar.google.com/citations?user=2Yc0IXMAAAAJ"
+
   [[params.socialIcons]]
     name = "email"
     url = "mailto:contact@pringled.dev"
-  
-  # Profile mode for better social icon placement
+
+  # Homepage: Profile mode
   [params.profileMode]
     enabled = true
     title = "Thomas van Dongen"
-    subtitle = "Lead ML engineer. I build small, practical ML systems—embeddings, retrieval, evaluation, tooling."
-    imageUrl = "" # Optional: add a profile photo URL
+    subtitle = "Lead ML engineer building small, practical ML systems for embeddings, retrieval, and evaluation."
+    imageUrl = ""
     imageTitle = "Thomas van Dongen"
     imageWidth = 120
     imageHeight = 120
-    
+
     [[params.profileMode.buttons]]
       name = "Projects"
-      url = "/projects"
-    
+      url = "/projects/"
+
     [[params.profileMode.buttons]]
       name = "Blog"
-      url = "/blog"
-    
+      url = "/blog/"
+
     [[params.profileMode.buttons]]
       name = "About"
-      url = "/about"
+      url = "/about/"
 
-  # Features
-  ShowReadingTime = true
-  ShowShareButtons = false
-  ShowPostNavLinks = true
-  ShowBreadCrumbs = false
-  ShowCodeCopyButtons = true
-  ShowRssButtonInSectionTermList = true
-  
-  # Syntax highlighting - use inline style for better light mode
+  # Assets / highlighting
   [params.assets]
     disableHLJS = false
 
 [markup]
   [markup.highlight]
-    style = 'github'
+    style = "github"
     lineNos = false
     lineNumbersInTable = false
 
-# Menu
+# Menu (top-right)
 [[menu.main]]
   identifier = "projects"
   name = "Projects"
@@ -78,7 +82,7 @@ Currently focused on lightweight embedding models and production ML pragmatism.
 
 [[menu.main]]
   identifier = "blog"
-  name = "Notes"
+  name = "Blog"
   url = "/blog/"
   weight = 20
 
