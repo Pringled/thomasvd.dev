@@ -8,6 +8,13 @@ summaryLength = 0
   author = "Thomas van Dongen"
   description = "Lead ML engineer building small, practical ML systems."
 
+  # Favicon
+  [params.assets]
+    favicon = "/favicon.ico"
+    favicon16x16 = "/favicon.ico"
+    favicon32x32 = "/favicon.ico"
+    apple_touch_icon = "/avatar.png"
+
   # Theme behavior
   defaultTheme = "auto"
   disableThemeToggle = false
