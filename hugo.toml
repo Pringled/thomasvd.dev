@@ -1,0 +1,101 @@
+baseURL = "https://thomasvd.dev/"
+languageCode = "en-us"
+title = "thomasvd.dev"
+theme = "PaperMod"
+summaryLength = 0
+
+[params]
+  author = "Thomas van Dongen"
+  description = "Lead ML engineer building small, practical ML systems."
+
+  # Theme behavior
+  defaultTheme = "auto"
+  disableThemeToggle = false
+  disableSpecial1stPost = true
+  ShowShareButtons = false
+  ShowBreadCrumbs = false
+  ShowPostNavLinks = true
+  ShowCodeCopyButtons = true
+  ShowReadingTime = false
+  ShowRssButtonInSectionTermList = true
+  ShowToc = false
+  math = true
+  hideSummary = false
+
+  # Social icons (header / profile)
+  [[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/Pringled"
+
+  [[params.socialIcons]]
+    name = "linkedin"
+    url = "https://linkedin.com/in/thomas-van-dongen"
+
+  [[params.socialIcons]]
+    name = "x"
+    url = "https://x.com/thomas_v_dongen"
+
+  [[params.socialIcons]]
+    name = "googlescholar"
+    url = "https://scholar.google.com/citations?user=2Yc0IXMAAAAJ"
+
+  [[params.socialIcons]]
+    name = "email"
+    url = "mailto:thomasvdongen@proton.me"
+
+  # Homepage: Profile mode
+  [params.profileMode]
+    enabled = true
+    title = "Thomas van Dongen"
+    subtitle = "Lead ML Engineer. I build production ML systems for embeddings, retrieval, and classification. Active open-source maintainer."
+    imageUrl = ""
+    imageTitle = "Thomas van Dongen"
+    imageWidth = 120
+    imageHeight = 120
+
+    [[params.profileMode.buttons]]
+      name = "Projects"
+      url = "/projects/"
+
+    [[params.profileMode.buttons]]
+      name = "Blog"
+      url = "/blog/"
+
+    [[params.profileMode.buttons]]
+      name = "About"
+      url = "/about/"
+
+  # Assets / highlighting
+  [params.assets]
+    disableHLJS = true
+
+[markup]
+  [markup.highlight]
+    noClasses = false
+    lineNos = false
+    lineNumbersInTable = false
+
+# Menu (top-right)
+[[menu.main]]
+  identifier = "projects"
+  name = "Projects"
+  url = "/projects/"
+  weight = 10
+
+[[menu.main]]
+  identifier = "blog"
+  name = "Blog"
+  url = "/blog/"
+  weight = 20
+
+[[menu.main]]
+  identifier = "about"
+  name = "About"
+  url = "/about/"
+  weight = 30
+
+[[menu.main]]
+  identifier = "cv"
+  name = "CV"
+  url = "/cv/"
+  weight = 40

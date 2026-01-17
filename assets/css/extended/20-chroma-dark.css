@@ -1,0 +1,103 @@
+/* Generated using: hugo gen chromastyles --style=monokai */
+
+/* Base styling for dark mode: ensure readable default text */
+html[data-theme="dark"] .chroma {
+  color: #f8f8f2;            /* Monokai default foreground */
+  background: transparent;   /* let the wrapper (.highlight) control bg */
+}
+
+html[data-theme="dark"] .bg {
+  background: transparent;   /* avoid any per-token background painting */
+}
+/* Error */ html[data-theme="dark"] .chroma .err { color:#960050;background-color:#1e0010 }
+/* LineLink */ html[data-theme="dark"] .chroma .lnlinks { outline:none;text-decoration:none;color:inherit }
+/* LineTableTD */ html[data-theme="dark"] .chroma .lntd { vertical-align:top;padding:0;margin:0;border:0; }
+/* LineTable */ html[data-theme="dark"] .chroma .lntable { border-spacing:0;padding:0;margin:0;border:0; }
+/* LineHighlight */ html[data-theme="dark"] .chroma .hl { background-color:#3c3d38 }
+/* LineNumbersTable */ html[data-theme="dark"] .chroma .lnt { white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f }
+/* LineNumbers */ html[data-theme="dark"] .chroma .ln { white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f }
+/* Line */ html[data-theme="dark"] .chroma .line { display:flex; }
+/* Keyword */ html[data-theme="dark"] .chroma .k { color:#66d9ef }
+/* KeywordConstant */ html[data-theme="dark"] .chroma .kc { color:#66d9ef }
+/* KeywordDeclaration */ html[data-theme="dark"] .chroma .kd { color:#66d9ef }
+/* KeywordNamespace */ html[data-theme="dark"] .chroma .kn { color:#f92672 }
+/* KeywordPseudo */ html[data-theme="dark"] .chroma .kp { color:#66d9ef }
+/* KeywordReserved */ html[data-theme="dark"] .chroma .kr { color:#66d9ef }
+/* KeywordType */ html[data-theme="dark"] .chroma .kt { color:#66d9ef }
+/* NameAttribute */ html[data-theme="dark"] .chroma .na { color:#a6e22e }
+/* NameClass */ html[data-theme="dark"] .chroma .nc { color:#a6e22e }
+/* NameConstant */ html[data-theme="dark"] .chroma .no { color:#66d9ef }
+/* NameDecorator */ html[data-theme="dark"] .chroma .nd { color:#a6e22e }
+/* NameException */ html[data-theme="dark"] .chroma .ne { color:#a6e22e }
+/* NameOther */ html[data-theme="dark"] .chroma .nx { color:#a6e22e }
+/* NameTag */ html[data-theme="dark"] .chroma .nt { color:#f92672 }
+/* NameFunction */ html[data-theme="dark"] .chroma .nf { color:#a6e22e }
+/* NameFunctionMagic */ html[data-theme="dark"] .chroma .fm { color:#a6e22e }
+/* Literal */ html[data-theme="dark"] .chroma .l { color:#ae81ff }
+/* LiteralDate */ html[data-theme="dark"] .chroma .ld { color:#e6db74 }
+/* LiteralString */ html[data-theme="dark"] .chroma .s { color:#e6db74 }
+/* LiteralStringAffix */ html[data-theme="dark"] .chroma .sa { color:#e6db74 }
+/* LiteralStringBacktick */ html[data-theme="dark"] .chroma .sb { color:#e6db74 }
+/* LiteralStringChar */ html[data-theme="dark"] .chroma .sc { color:#e6db74 }
+/* LiteralStringDelimiter */ html[data-theme="dark"] .chroma .dl { color:#e6db74 }
+/* LiteralStringDoc */ html[data-theme="dark"] .chroma .sd { color:#e6db74 }
+/* LiteralStringDouble */ html[data-theme="dark"] .chroma .s2 { color:#e6db74 }
+/* LiteralStringEscape */ html[data-theme="dark"] .chroma .se { color:#ae81ff }
+/* LiteralStringHeredoc */ html[data-theme="dark"] .chroma .sh { color:#e6db74 }
+/* LiteralStringInterpol */ html[data-theme="dark"] .chroma .si { color:#e6db74 }
+/* LiteralStringOther */ html[data-theme="dark"] .chroma .sx { color:#e6db74 }
+/* LiteralStringRegex */ html[data-theme="dark"] .chroma .sr { color:#e6db74 }
+/* LiteralStringSingle */ html[data-theme="dark"] .chroma .s1 { color:#e6db74 }
+/* LiteralStringSymbol */ html[data-theme="dark"] .chroma .ss { color:#e6db74 }
+/* LiteralNumber */ html[data-theme="dark"] .chroma .m { color:#ae81ff }
+/* LiteralNumberBin */ html[data-theme="dark"] .chroma .mb { color:#ae81ff }
+/* LiteralNumberFloat */ html[data-theme="dark"] .chroma .mf { color:#ae81ff }
+/* LiteralNumberHex */ html[data-theme="dark"] .chroma .mh { color:#ae81ff }
+/* LiteralNumberInteger */ html[data-theme="dark"] .chroma .mi { color:#ae81ff }
+/* LiteralNumberIntegerLong */ html[data-theme="dark"] .chroma .il { color:#ae81ff }
+/* LiteralNumberOct */ html[data-theme="dark"] .chroma .mo { color:#ae81ff }
+/* Operator */ html[data-theme="dark"] .chroma .o { color:#f92672 }
+/* OperatorWord */ html[data-theme="dark"] .chroma .ow { color:#f92672 }
+/* Comment */ html[data-theme="dark"] .chroma .c { color:#75715e }
+/* CommentHashbang */ html[data-theme="dark"] .chroma .ch { color:#75715e }
+/* CommentMultiline */ html[data-theme="dark"] .chroma .cm { color:#75715e }
+/* CommentSingle */ html[data-theme="dark"] .chroma .c1 { color:#75715e }
+/* CommentSpecial */ html[data-theme="dark"] .chroma .cs { color:#75715e }
+/* CommentPreproc */ html[data-theme="dark"] .chroma .cp { color:#75715e }
+/* CommentPreprocFile */ html[data-theme="dark"] .chroma .cpf { color:#75715e }
+/* GenericDeleted */ html[data-theme="dark"] .chroma .gd { color:#f92672 }
+/* GenericEmph */ html[data-theme="dark"] .chroma .ge { font-style:italic }
+/* GenericInserted */ html[data-theme="dark"] .chroma .gi { color:#a6e22e }
+/* GenericStrong */ html[data-theme="dark"] .chroma .gs { font-weight:bold }
+/* GenericSubheading */ html[data-theme="dark"] .chroma .gu { color:#75715e }
+
+/* --- PaperMod-ish dark code block polish (keeps Monokai token colors) --- */
+html[data-theme="dark"] {
+  --code-bg: #1f2228;          /* softer than monokai #272822 */
+  --code-border: rgba(255,255,255,0.10);
+}
+
+/* Wrapper: rounded, subtle border/shadow */
+html[data-theme="dark"] .post-content .highlight {
+  background: var(--code-bg) !important;
+  border: 1px solid var(--code-border) !important;
+  border-radius: 14px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.25);
+}
+
+/* Keep the <pre> transparent so wrapper controls bg */
+html[data-theme="dark"] .post-content .highlight > pre.chroma {
+  background: transparent !important;
+}
+
+/* Fix “plain text” looking slightly dim in some languages */
+html[data-theme="dark"] .chroma,
+html[data-theme="dark"] .chroma .line,
+html[data-theme="dark"] .chroma .cl {
+  color: #e6e6e6; /* a touch brighter than #f8f8f2 can feel on darker bg */
+}
+
+/* Optional: nicer selection inside code blocks */
+html[data-theme="dark"] .chroma ::selection {
+  background: rgba(255, 255, 255, 0.18);
+}

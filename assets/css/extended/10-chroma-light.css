@@ -1,0 +1,120 @@
+/* Light theme: One Light-ish (custom) */
+/* Keep background transparent; wrapper (.highlight) owns bg */
+
+html[data-theme="light"] .chroma {
+  color: #383a42;          /* base foreground */
+  background: transparent;
+}
+
+html[data-theme="light"] .bg {
+  background: transparent;
+}
+
+/* Error */
+html[data-theme="light"] .chroma .err { color:#ffffff; background-color:#e45649; }
+
+/* Line table / numbers (if enabled) */
+html[data-theme="light"] .chroma .lnlinks { outline:none; text-decoration:none; color:inherit; }
+html[data-theme="light"] .chroma .lntd { vertical-align:top; padding:0; margin:0; border:0; }
+html[data-theme="light"] .chroma .lntable { border-spacing:0; padding:0; margin:0; border:0; }
+html[data-theme="light"] .chroma .hl { background-color: rgba(56, 58, 66, 0.06); }
+html[data-theme="light"] .chroma .lnt,
+html[data-theme="light"] .chroma .ln { color:#a0a1a7; user-select:none; padding:0 0.4em; }
+
+/* Comments */
+html[data-theme="light"] .chroma .c,
+html[data-theme="light"] .chroma .ch,
+html[data-theme="light"] .chroma .cm,
+html[data-theme="light"] .chroma .c1,
+html[data-theme="light"] .chroma .cs,
+html[data-theme="light"] .chroma .cp,
+html[data-theme="light"] .chroma .cpf { color:#a0a1a7; font-style:italic; }
+
+/* Keywords */
+html[data-theme="light"] .chroma .k,
+html[data-theme="light"] .chroma .kc,
+html[data-theme="light"] .chroma .kd,
+html[data-theme="light"] .chroma .kn,
+html[data-theme="light"] .chroma .kp,
+html[data-theme="light"] .chroma .kr,
+html[data-theme="light"] .chroma .kt { color:#a626a4; }
+
+/* Names */
+html[data-theme="light"] .chroma .n { color:#383a42; }
+html[data-theme="light"] .chroma .na { color:#986801; } /* attributes */
+html[data-theme="light"] .chroma .nb { color:#c18401; } /* builtins */
+html[data-theme="light"] .chroma .bp { color:#696c77; } /* builtin pseudo */
+html[data-theme="light"] .chroma .nc { color:#c18401; } /* class name */
+html[data-theme="light"] .chroma .nn { color:#c18401; } /* namespace */
+html[data-theme="light"] .chroma .nd { color:#4078f2; } /* decorator */
+html[data-theme="light"] .chroma .ne { color:#e45649; } /* exception */
+html[data-theme="light"] .chroma .nf,
+html[data-theme="light"] .chroma .fm { color:#4078f2; } /* functions */
+html[data-theme="light"] .chroma .no { color:#e45649; } /* constants */
+html[data-theme="light"] .chroma .nt { color:#e45649; } /* tags */
+html[data-theme="light"] .chroma .nx { color:#383a42; } /* other names */
+
+/* Variables */
+html[data-theme="light"] .chroma .nv,
+html[data-theme="light"] .chroma .vc,
+html[data-theme="light"] .chroma .vg,
+html[data-theme="light"] .chroma .vi,
+html[data-theme="light"] .chroma .vm { color:#e45649; }
+
+/* Literals: strings */
+html[data-theme="light"] .chroma .s,
+html[data-theme="light"] .chroma .sa,
+html[data-theme="light"] .chroma .sb,
+html[data-theme="light"] .chroma .sc,
+html[data-theme="light"] .chroma .dl,
+html[data-theme="light"] .chroma .sd,
+html[data-theme="light"] .chroma .s2,
+html[data-theme="light"] .chroma .se,
+html[data-theme="light"] .chroma .sh,
+html[data-theme="light"] .chroma .si,
+html[data-theme="light"] .chroma .sx,
+html[data-theme="light"] .chroma .sr,
+html[data-theme="light"] .chroma .s1,
+html[data-theme="light"] .chroma .ss { color:#50a14f; }
+
+/* Literals: numbers */
+html[data-theme="light"] .chroma .m,
+html[data-theme="light"] .chroma .mb,
+html[data-theme="light"] .chroma .mf,
+html[data-theme="light"] .chroma .mh,
+html[data-theme="light"] .chroma .mi,
+html[data-theme="light"] .chroma .il,
+html[data-theme="light"] .chroma .mo { color:#986801; }
+
+/* Operators + punctuation */
+html[data-theme="light"] .chroma .o,
+html[data-theme="light"] .chroma .ow { color:#0184bc; }
+html[data-theme="light"] .chroma .p { color:#383a42; }
+
+/* Generic */
+html[data-theme="light"] .chroma .gd { color:#e45649; background-color: rgba(228, 86, 73, 0.12); }
+html[data-theme="light"] .chroma .gi { color:#50a14f; background-color: rgba(80, 161, 79, 0.12); }
+html[data-theme="light"] .chroma .ge { font-style:italic; }
+html[data-theme="light"] .chroma .gs { font-weight:bold; }
+html[data-theme="light"] .chroma .gu { color:#a0a1a7; }
+
+/* Whitespace helper (rare) */
+html[data-theme="light"] .chroma .w { color: transparent; }
+
+/* --- Fix washed-out "plain text" in non-highlighted blocks (bash, txt, etc.) --- */
+html[data-theme="light"] .chroma,
+html[data-theme="light"] .chroma .line,
+html[data-theme="light"] .chroma .cl {
+  color: #383a42 !important; /* base fg */
+}
+
+/* Chroma's "Text" token class (often used for plain content) */
+html[data-theme="light"] .chroma .x,
+html[data-theme="light"] .chroma .txt {
+  color: #383a42 !important;
+}
+
+/* If your generated HTML uses span class="n" heavily, ensure it isn't overridden */
+html[data-theme="light"] .chroma .n {
+  color: #383a42 !important;
+}

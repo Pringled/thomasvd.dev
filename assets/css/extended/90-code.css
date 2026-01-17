@@ -1,0 +1,60 @@
+/* 1) Override PaperMod variables that it actually uses */
+html[data-theme="light"] {
+  --code-block-bg: #f6f8fa;              /* fenced blocks */
+  --code-bg: rgba(175, 184, 193, 0.22);  /* inline code */
+}
+
+html[data-theme="dark"] {
+  --code-block-bg: #0f1115;
+  --code-bg: rgba(110, 118, 129, 0.35);
+}
+
+/* 2) Force the background on the real rendered elements PaperMod styles */
+html[data-theme="light"] .post-content .highlight,
+html[data-theme="light"] .post-content pre,
+html[data-theme="light"] .post-content pre code {
+  background: var(--code-block-bg) !important;
+}
+
+html[data-theme="dark"] .post-content .highlight,
+html[data-theme="dark"] .post-content pre,
+html[data-theme="dark"] .post-content pre code {
+  background: var(--code-block-bg) !important;
+}
+
+/* Wrapper styling */
+.post-content .highlight {
+  border: 1px solid rgba(31, 35, 40, 0.12);
+  border-radius: 12px;
+  margin: 1.2rem 0;
+  overflow: hidden;
+}
+
+html[data-theme="dark"] .post-content .highlight {
+  border-color: rgba(255, 255, 255, 0.12);
+}
+
+/* 3) Keep chroma's inner pre transparent so the wrapper looks clean */
+.post-content .highlight > pre.chroma {
+  background: transparent !important;
+  color: inherit !important;
+  margin: 0 !important;
+  padding: 1.1rem 1.2rem !important;
+  overflow-x: auto;
+}
+
+/* 4) Inline code only */
+.post-content :not(pre) > code {
+  background: var(--code-bg) !important;
+  padding: 0.15em 0.4em;
+  border-radius: 6px;
+}
+
+/* Slightly nicer scrollbar (optional) */
+.post-content .highlight pre.chroma::-webkit-scrollbar {
+  height: 10px;
+}
+.post-content .highlight pre.chroma::-webkit-scrollbar-thumb {
+  background: rgba(127, 127, 127, 0.35);
+  border-radius: 999px;
+}

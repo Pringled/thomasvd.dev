@@ -1,0 +1,28 @@
+/* Add spacing between social icons and buttons */
+.profile .social-icons {
+    margin-bottom: 1.5rem;
+}
+
+/* Button hierarchy for homepage */
+.profile .buttons a.button:first-child {
+    background: var(--primary);
+    color: var(--theme);
+    border-color: var(--primary);
+    font-weight: 500;
+}
+
+.profile .buttons a.button:first-child:hover {
+    background: var(--secondary);
+    transform: translateY(-1px);
+    transition: all 0.2s ease;
+}
+
+.profile .buttons a.button:not(:first-child) {
+    background: transparent;
+    border: 1px solid var(--border);
+    color: var(--primary);
+}
+
+.profile .buttons a.button:not(:first-child):hover {
+    background: var(--tertiary);
+}
