@@ -23,13 +23,9 @@ The Slimmer AI science division was acquired by Springer Nature after successful
 **Minish** — Co-founder  
 *Sep 2024 - Present (part-time) • Groningen, Netherlands*
 
-Developing open-source ML software with a focus on efficiency and eco-friendly models. Our GitHub org: [MinishLab](https://github.com/MinishLab).
+Developing open-source ML software with a focus on efficiency and eco-friendly models. Currently working on Model2Vec, SemHash, Pyversity, Potion, Vicinity, and other packages. See [Projects](/projects/) page for details.
 
-We are currently working on the following open-source projects:
-- Model2Vec: Fast State-of-the-Art Static Embeddings
-- Vicinity: Lightweight Nearest Neighbors with Flexible Backends
-- SemHash: Fast Semantic Text Deduplication
-- Potion models: State-of-the-art Static Embedding Models
+GitHub org: [MinishLab](https://github.com/MinishLab)
 
 **Slimmer AI** — Machine Learning Engineer  
 *May 2021 - Oct 2023 • Groningen*
