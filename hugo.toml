@@ -1,6 +1,6 @@
-baseURL = "https://pringled.dev/"
+baseURL = "https://thomasvd.dev/"
 languageCode = "en-us"
-title = "pringled.dev"
+title = "thomasvd.dev"
 theme = "PaperMod"
 summaryLength = 0
 
@@ -41,7 +41,7 @@ summaryLength = 0
 
   [[params.socialIcons]]
     name = "email"
-    url = "mailto:contact@pringled.dev"
+    url = "mailto:thomasvdongen@proton.me"
 
   # Homepage: Profile mode
   [params.profileMode]
@@ -64,6 +64,10 @@ summaryLength = 0
     [[params.profileMode.buttons]]
       name = "About"
       url = "/about/"
+
+    [[params.profileMode.buttons]]
+      name = "CV"
+      url = "/cv/"
 
   # Assets / highlighting
   [params.assets]
@@ -93,3 +97,9 @@ summaryLength = 0
   name = "About"
   url = "/about/"
   weight = 30
+
+[[menu.main]]
+  identifier = "cv"
+  name = "CV"
+  url = "/cv/"
+  weight = 40

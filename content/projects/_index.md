@@ -8,6 +8,7 @@ A curated list of open-source packages I develop and maintain.
 - [Model2Vec](#model2vec)
 - [SemHash](#semhash)
 - [Pyversity](#pyversity)
+- [Potion](#potion)
 - [Vicinity](#vicinity)
 - [Tokenlearn](#tokenlearn)
 - [Model2Vec-rs](#model2vec-rs)
@@ -38,6 +39,15 @@ A fast, lightweight library for diversifying retrieval results using classical d
 
 - GitHub: https://github.com/Pringled/pyversity  
 - Docs: https://github.com/Pringled/pyversity
+
+---
+
+## Potion
+
+Tiny state-of-the-art static embedding models built with Model2Vec. Potion models are optimized for speed and efficiency, with pre-trained models available for English, Multilingual, and retrieval tasks.
+
+- Hugging Face: https://huggingface.co/collections/minishlab/potion  
+- Docs: https://minish.ai/packages/model2vec/introduction
 
 ---
 
