@@ -4,10 +4,17 @@ title = "thomasvd.dev"
 theme = "PaperMod"
 summaryLength = 0
 enableRobotsTXT = true
+googleAnalytics = "G-FT1MZRFHXW"
 
 [params]
   author = "Thomas van Dongen"
   description = "Lead ML engineer building small, practical ML systems."
+
+  # OpenGraph / Social sharing
+  images = ["/avatar.png"]
+  
+  [params.social]
+    twitter = "thomas_v_dongen"
 
   # Theme behavior
   defaultTheme = "auto"
