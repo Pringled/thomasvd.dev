@@ -57,13 +57,15 @@ Thesis title: "Quality Prediction of Scientific Documents Using Textual and Visu
 
 - **[Model2Vec](https://github.com/MinishLab/model2vec)** — A distillation framework for creating state-of-the-art static embeddings from Sentence Transformers. Encodes up to 20k embeddings/s on CPU with a 10% MTEB improvement over prior static embedding baselines.
 
-- **[SemHash](https://github.com/MinishLab/semhash)** — A package for semantic deduplication and filtering or large datasets baed on embedding similarity. Can be used to remove near-duplicates, detect overlap between splits, or clean large corpora before training.
+- **[SemHash](https://github.com/MinishLab/semhash)** — A lightweight, multimodal library for semantic deduplication and filtering of datasets based on embedding similarity. Can be used to remove near-duplicates, detect overlap between splits, or clean large corpora before training. Text works out of the box, with support for images, audio, and other modalities via custom encoders.
 
 - **[Pyversity](https://github.com/MinishLab/pyversity)** — A unified interface for optimized diversity algorithms in Python, designed for improving search & retrieval results. 
 
 - **[Potion models](https://huggingface.co/collections/minishlab/potion)** — Tiny state-of-the-art static embedding models. Pre-trained models include English, Multilingual, and retrieval models.
 
 - **[Vicinity](https://github.com/MinishLab/vicinity)** — A unified ANN interface for many ANN algorithms that includes evaluation tools.
+
+- **[Agentcheck](https://github.com/Pringled/agentcheck)** — A fast, read-only tool that scans your shell and reports what an AI agent could access: cloud IAM, API keys, Kubernetes, local tools, and more.
 
 ## Publications
 

@@ -10,6 +10,7 @@ A curated list of open-source packages I develop and maintain.
 - [Pyversity](#pyversity)
 - [Potion](#potion)
 - [Vicinity](#vicinity)
+- [Agentcheck](#agentcheck)
 - [Tokenlearn](#tokenlearn)
 - [Model2Vec-rs](#model2vec-rs)
 
@@ -26,7 +27,7 @@ State-of-the-art static embedding models distilled from sentence transformers, d
 
 ## SemHash
 
-A semantic deduplication and filtering library for text datasets based on embedding similarity. SemHash can be used to remove near-duplicates, detect overlap between splits, or clean large corpora before training.
+A lightweight, multimodal library for semantic deduplication and filtering of datasets based on embedding similarity. SemHash can be used to remove near-duplicates, detect overlap between splits, or clean large corpora before training. Text works out of the box, and images, audio, and other modalities are supported with custom encoders.
 
 - GitHub: https://github.com/MinishLab/semhash  
 - Docs: https://minish.ai/packages/semhash/introduction
@@ -57,6 +58,14 @@ A unified nearest-neighbor search interface that provides a consistent API over 
 
 - GitHub: https://github.com/MinishLab/vicinity  
 - Docs: https://minish.ai/packages/vicinity/introduction
+
+---
+
+## Agentcheck
+
+A fast, read-only tool that scans your shell and reports what an AI agent could access: cloud IAM, API keys, Kubernetes, local tools, and more. Every finding is tagged by severity, and agentcheck can be used as a safety hook or integrated into CI/CD pipelines.
+
+- GitHub: https://github.com/Pringled/agentcheck
 
 ---
 
