@@ -38,8 +38,7 @@ A lightweight, multimodal library for semantic deduplication and filtering of da
 
 A fast, lightweight library for diversifying retrieval results using classical diversification strategies. Pyversity provides a unified API for methods such as MMR, MSD, DPP, COVER, and SSD, with NumPy as its only dependency.
 
-- GitHub: https://github.com/Pringled/pyversity  
-- Docs: https://github.com/Pringled/pyversity
+- GitHub: https://github.com/Pringled/pyversity
 
 ---
 
