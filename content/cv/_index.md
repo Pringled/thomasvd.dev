@@ -6,7 +6,7 @@ title: "CV"
 
 Head of AI Engineering at Springer Nature, where I lead a team building AI-driven solutions that improve scientific publishing. I specialize in recommender systems, information retrieval, and building practical ML systems that scale. 
 
-Co-founder of [Minish](https://github.com/MinishLab), an open-source ML lab focused on efficient, eco-friendly models. Creator of Model2Vec, SemHash, Vicinity, and the Potion embedding models.
+Co-founder of [Minish](https://minish.ai), an open-source ML lab building small, fast packages for embeddings and search.
 
 ## Experience
 
@@ -23,7 +23,7 @@ The Slimmer AI science division was acquired by Springer Nature after successful
 **Minish** — Co-founder  
 *Sep 2024 - Present (part-time) • Groningen, Netherlands*
 
-Developing open-source ML software with a focus on efficiency and eco-friendly models. Currently working on Model2Vec, SemHash, Pyversity, Potion, Vicinity, and other packages. See [Projects](/projects/) page for details.
+Developing open-source ML software with a focus on efficiency and eco-friendly models. Currently working on Semble, Model2Vec, SemHash, Pyversity, Potion, Vicinity, and other packages. See [Projects](/projects/) page for details.
 
 GitHub org: [MinishLab](https://github.com/MinishLab)
 
@@ -54,6 +54,8 @@ Thesis title: "Quality Prediction of Scientific Documents Using Textual and Visu
 *2015 - 2018*
 
 ## Open Source Projects
+
+- **[Semble](https://github.com/MinishLab/semble)** — Fast and accurate code search for agents. Returns relevant code snippets instantly using ~98% fewer tokens than grep+read, with ~200x faster indexing than code-specialized transformers at 99% of retrieval quality. Runs fully on CPU with no API keys or external services; deployable as an MCP server or CLI tool.
 
 - **[Model2Vec](https://github.com/MinishLab/model2vec)** — A distillation framework for creating state-of-the-art static embeddings from Sentence Transformers. Encodes up to 20k embeddings/s on CPU with a 10% MTEB improvement over prior static embedding baselines.
 

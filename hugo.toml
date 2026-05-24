@@ -10,8 +10,8 @@ googleAnalytics = "G-FT1MZRFHXW"
   # Environment and metadata
   env = "production"
   author = "Thomas van Dongen"
-  title = "Thomas van Dongen — Lead ML Engineer"
-  description = "Lead ML Engineer building production ML systems."
+  title = "Thomas van Dongen — Principal ML Engineer"
+  description = "Principal ML Engineer building production ML systems."
   keywords = [
     "Thomas van Dongen",
     "Pringled",
@@ -22,6 +22,7 @@ googleAnalytics = "G-FT1MZRFHXW"
     "open-source",
     "Model2Vec",
     "SemHash",
+    "Semble",
     "Pyversity"
   ]
 
@@ -70,7 +71,7 @@ googleAnalytics = "G-FT1MZRFHXW"
   [params.profileMode]
     enabled = true
     title = "Thomas van Dongen"
-    subtitle = "Lead ML Engineer. I build production ML systems for embeddings, retrieval, and classification. Active open-source maintainer."
+    subtitle = "Building production ML systems for embeddings and retrieval. Co-founder of Minish, an open-source ML lab."
     imageUrl = ""
     imageTitle = "Thomas van Dongen"
     imageWidth = 120
@@ -79,10 +80,6 @@ googleAnalytics = "G-FT1MZRFHXW"
     [[params.profileMode.buttons]]
       name = "Projects"
       url = "/projects/"
-
-    [[params.profileMode.buttons]]
-      name = "Blog"
-      url = "/blog/"
 
     [[params.profileMode.buttons]]
       name = "About"
@@ -108,12 +105,6 @@ googleAnalytics = "G-FT1MZRFHXW"
   name = "Projects"
   url = "/projects/"
   weight = 10
-
-[[menu.main]]
-  identifier = "blog"
-  name = "Blog"
-  url = "/blog/"
-  weight = 20
 
 [[menu.main]]
   identifier = "about"
