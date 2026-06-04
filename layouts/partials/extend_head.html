@@ -1,3 +1,45 @@
+{{- if .IsHome }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Thomas van Dongen",
+  "url": "https://thomasvd.dev/",
+  "image": "https://thomasvd.dev/avatar.jpg",
+  "jobTitle": "Head of AI Engineering",
+  "worksFor": [
+    {
+      "@type": "Organization",
+      "name": "Springer Nature"
+    },
+    {
+      "@type": "Organization",
+      "name": "Minish",
+      "url": "https://minish.ai"
+    }
+  ],
+  "alumniOf": {
+    "@type": "CollegeOrUniversity",
+    "name": "University of Groningen"
+  },
+  "knowsAbout": [
+    "Machine Learning",
+    "Embeddings",
+    "Information Retrieval",
+    "Recommender Systems",
+    "Natural Language Processing",
+    "Large Language Models",
+    "AI Agents"
+  ],
+  "sameAs": [
+    "https://github.com/Pringled",
+    "https://linkedin.com/in/thomas-van-dongen",
+    "https://x.com/thomas_v_dongen",
+    "https://scholar.google.com/citations?user=2Yc0IXMAAAAJ"
+  ]
+}
+</script>
+{{- end }}
 {{- if or .Params.math .Site.Params.math }}
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" integrity="sha384-n8MVd4RsNIU0tAv4ct0nTaAbDJwPJzDEaqSD1odI+WdtXRGWt2kTvGFasHpSy3SV" crossorigin="anonymous">
 <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js" integrity="sha384-XjKyOOlGwcjNTAIQHIpgOno0Hl1YQqzUOEleOLALmuqehneUG+vnGctmUb0ZY0l8" crossorigin="anonymous"></script>

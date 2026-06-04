@@ -1,3 +1,15 @@
+.profile-tagline {
+    font-size: 1.1rem;
+    color: var(--primary);
+}
+
+.profile-credentials {
+    display: block;
+    font-size: 0.95rem;
+    color: var(--secondary);
+    margin-top: 0.2rem;
+}
+
 /* Add spacing between social icons and buttons */
 .profile .social-icons {
     margin-bottom: 1.5rem;

@@ -10,8 +10,8 @@ googleAnalytics = "G-FT1MZRFHXW"
   # Environment and metadata
   env = "production"
   author = "Thomas van Dongen"
-  title = "Thomas van Dongen — Principal ML Engineer"
-  description = "Principal ML Engineer building production ML systems."
+  title = "Thomas van Dongen — Head of AI Engineering"
+  description = "Building production ML systems for embeddings, retrieval, and language models. Head of AI Engineering at Springer Nature. Co-founder of Minish, an open-source ML lab."
   keywords = [
     "Thomas van Dongen",
     "Pringled",
@@ -71,8 +71,9 @@ googleAnalytics = "G-FT1MZRFHXW"
   [params.profileMode]
     enabled = true
     title = "Thomas van Dongen"
-    subtitle = "Building production ML systems for embeddings and retrieval. Co-founder of Minish, an open-source ML lab."
-    imageUrl = ""
+    subtitle = "Building production ML systems for embeddings, retrieval, and language models."
+    credentials = "Head of AI Engineering at Springer Nature. Co-founder of Minish, an open-source ML lab."
+    imageUrl = "/avatar.jpg"
     imageTitle = "Thomas van Dongen"
     imageWidth = 120
     imageHeight = 120
@@ -100,6 +101,12 @@ googleAnalytics = "G-FT1MZRFHXW"
     lineNumbersInTable = false
 
 # Menu (top-right)
+[[menu.main]]
+  identifier = "blog"
+  name = "Blog"
+  url = "/blog/"
+  weight = 5
+
 [[menu.main]]
   identifier = "projects"
   name = "Projects"
