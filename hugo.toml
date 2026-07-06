@@ -71,19 +71,19 @@ googleAnalytics = "G-FT1MZRFHXW"
   [params.profileMode]
     enabled = true
     title = "Thomas van Dongen"
-    subtitle = "Building production ML systems for embeddings, retrieval, and language models."
-    credentials = "Head of AI Engineering at Springer Nature. Co-founder of Minish, an open-source ML lab."
+    subtitle = "Building production ML systems for embeddings, retrieval, and language models"
+    credentials = "Head of AI Engineering at Springer Nature / Co-founder of Minish"
     imageUrl = "/avatar.jpg"
     imageTitle = "Thomas van Dongen"
     imageWidth = 120
     imageHeight = 120
 
     [[params.profileMode.buttons]]
-      name = "Projects"
+      name = "Explore projects"
       url = "/projects/"
 
     [[params.profileMode.buttons]]
-      name = "About"
+      name = "About me"
       url = "/about/"
 
   # Assets / highlighting

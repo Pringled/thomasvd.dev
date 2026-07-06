@@ -1,6 +1,7 @@
 <div class="profile">
     {{- with site.Params.profileMode }}
     <div class="profile_inner">
+        <div class="profile-kicker">ml systems / retrieval / open source</div>
         {{- if .imageUrl -}}
         {{- $img := "" }}
         {{- if not (urls.Parse .imageUrl).IsAbs }}
@@ -56,6 +57,7 @@
             {{- end }}
         </div>
         {{- end }}
+        {{- partial "extend_home_profile.html" . -}}
     </div>
     {{- end}}
 </div>
