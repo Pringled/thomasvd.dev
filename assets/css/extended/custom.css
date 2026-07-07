@@ -34,7 +34,7 @@ body,
 }
 
 .header {
-    border-bottom: 3px solid var(--border);
+    border-bottom: 4px solid var(--border);
     background: var(--header-bg);
     width: 100%;
 }
