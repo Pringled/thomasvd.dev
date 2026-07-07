@@ -212,8 +212,8 @@ body,
 }
 
 .post-content {
-    font-size: 1rem;
-    line-height: 1.68;
+    font-size: 1.06rem;
+    line-height: 1.7;
 }
 
 .post-content h2 {
@@ -242,7 +242,7 @@ body,
     border-collapse: collapse;
     border-top: 2px solid var(--border);
     border-bottom: 2px solid var(--border);
-    font-size: 0.98rem;
+    font-size: 1rem;
 }
 
 .post-content th,
