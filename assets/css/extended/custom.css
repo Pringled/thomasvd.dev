@@ -15,9 +15,12 @@
     --radius: 4px;
     --main-width: 860px;
     --nav-width: 1120px;
+    --font-sans: "IBM Plex Sans", "Avenir Next", "Helvetica Neue", Arial, sans-serif;
+    --font-mono: "IBM Plex Mono", "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace;
 }
 
 body {
+    font-family: var(--font-sans);
     font-feature-settings: "ss01" 1, "ss02" 1;
 }
 
@@ -39,8 +42,9 @@ body,
 #menu a,
 .profile-credentials,
 .entry-footer,
-.post-meta {
-    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace;
+.post-meta,
+.button {
+    font-family: var(--font-mono);
 }
 
 .logo a {
@@ -68,7 +72,7 @@ body,
 #menu a:hover,
 #menu a:has(.active) {
     border-color: var(--border);
-    background: var(--entry);
+    background: var(--accent);
     box-shadow: 2px 2px 0 var(--shadow);
 }
 
@@ -99,18 +103,18 @@ body,
 }
 
 .profile h1 {
-    max-width: 880px;
+    max-width: 820px;
     margin-top: 10px;
-    font-size: clamp(3rem, 6.4vw, 4.5rem);
-    line-height: 0.96;
+    font-size: clamp(2.75rem, 5.35vw, 3.95rem);
+    line-height: 0.98;
     letter-spacing: 0;
 }
 
 .profile-tagline {
-    max-width: 760px;
-    font-size: clamp(1.2rem, 2.4vw, 1.62rem);
-    font-weight: 800;
-    line-height: 1.22;
+    max-width: 700px;
+    font-size: clamp(1.02rem, 1.85vw, 1.24rem);
+    font-weight: 700;
+    line-height: 1.28;
     color: var(--primary);
 }
 
@@ -127,7 +131,7 @@ body,
 
 .profile-credentials {
     padding: 8px 10px;
-    font-size: 0.86rem;
+    font-size: 0.8rem;
     line-height: 1.4;
 }
 
@@ -139,6 +143,10 @@ body,
     border: 2px solid var(--border);
     background: var(--entry);
     box-shadow: 2px 2px 0 var(--shadow);
+}
+
+.profile .social-icons a:hover {
+    background: var(--accent);
 }
 
 .profile .social-icons a svg {
@@ -187,6 +195,7 @@ body,
 }
 
 .post-entry:hover {
+    background: var(--entry);
     transform: translate(-1px, -1px);
 }
 
@@ -198,30 +207,106 @@ body,
 .page-header h1,
 .post-title,
 .post-content h1 {
-    font-size: clamp(2.25rem, 6vw, 3.4rem);
-    line-height: 1;
+    font-size: clamp(2.1rem, 5.2vw, 3rem);
+    line-height: 1.04;
 }
 
 .post-content {
-    font-size: 1.02rem;
-    line-height: 1.72;
+    font-size: 1rem;
+    line-height: 1.68;
 }
 
 .post-content h2 {
-    margin-top: 42px;
-    margin-bottom: 16px;
-    padding-bottom: 6px;
-    border-bottom: 3px solid var(--border);
+    margin-top: 40px;
+    margin-bottom: 14px;
+    padding-bottom: 8px;
+    border-bottom: 2px solid var(--border);
     color: var(--primary);
-    font-size: 1.45rem;
+    font-family: var(--font-mono);
+    font-size: 1.05rem;
     font-weight: 800;
-    line-height: 1.2;
+    line-height: 1.25;
+    text-transform: uppercase;
 }
 
 .post-content h3 {
     font-size: 1.12rem;
     font-weight: 800;
     text-transform: none;
+}
+
+.post-content table {
+    display: table;
+    width: 100%;
+    margin: 34px 0;
+    border-collapse: collapse;
+    border-top: 2px solid var(--border);
+    border-bottom: 2px solid var(--border);
+    font-size: 0.98rem;
+}
+
+.post-content th,
+.post-content td {
+    padding: 11px 8px;
+    border: 0;
+    border-bottom: 1.5px solid var(--border);
+}
+
+.post-content tr:last-child td {
+    border-bottom: 0;
+}
+
+.post-content th {
+    color: var(--primary);
+    font-family: var(--font-mono);
+    font-size: 0.88rem;
+    font-weight: 800;
+    text-align: left;
+}
+
+.post-content td:first-child {
+    width: 150px;
+    font-family: var(--font-mono);
+    font-weight: 700;
+}
+
+.post-content td:first-child a {
+    color: var(--primary);
+}
+
+.post-content a:hover,
+.post-entry:hover .entry-header h2,
+.post-entry:hover .entry-content {
+    color: var(--accent-strong);
+}
+
+.post-content strong {
+    color: var(--primary);
+    font-weight: 800;
+}
+
+.post-tags a,
+.paginav {
+    border: 2px solid var(--border);
+    background: var(--entry);
+}
+
+.post-tags a {
+    color: var(--secondary);
+}
+
+.post-tags a:hover,
+.paginav a:hover {
+    background: var(--accent);
+    color: var(--primary);
+}
+
+.paginav {
+    box-shadow: 3px 3px 0 var(--shadow);
+}
+
+.paginav a {
+    color: var(--primary);
 }
 
 @media (max-width: 760px) {
@@ -252,5 +337,11 @@ body,
 
     .profile-credentials {
         width: 100%;
+    }
+
+    .post-content table {
+        display: block;
+        overflow-x: auto;
+        white-space: nowrap;
     }
 }
