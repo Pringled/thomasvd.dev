@@ -211,6 +211,14 @@ body,
     line-height: 1.04;
 }
 
+.page-header h1 {
+    font-family: var(--font-mono);
+    font-size: clamp(2.15rem, 5.4vw, 3.3rem);
+    font-weight: 800;
+    line-height: 1;
+    text-transform: uppercase;
+}
+
 .post-content {
     font-size: 1.06rem;
     line-height: 1.7;
