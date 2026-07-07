@@ -103,13 +103,13 @@ googleAnalytics = "G-FT1MZRFHXW"
   identifier = "blog"
   name = "Blog"
   url = "/blog/"
-  weight = 5
+  weight = 10
 
 [[menu.main]]
   identifier = "projects"
   name = "Projects"
   url = "/projects/"
-  weight = 10
+  weight = 5
 
 [[menu.main]]
   identifier = "about"
