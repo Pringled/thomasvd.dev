@@ -24,6 +24,10 @@ body {
     font-feature-settings: "ss01" 1, "ss02" 1;
 }
 
+html {
+    background: var(--theme);
+}
+
 body,
 .list {
     background: var(--theme);
@@ -32,6 +36,7 @@ body,
 .header {
     border-bottom: 3px solid var(--border);
     background: var(--header-bg);
+    width: 100%;
 }
 
 .nav {
@@ -84,7 +89,7 @@ body,
 .main .profile {
     align-items: center;
     min-height: auto;
-    padding-block: 82px 38px;
+    padding-block: clamp(110px, 15vh, 170px) 60px;
     text-align: center;
 }
 
@@ -136,6 +141,8 @@ body,
 }
 
 .profile .social-icons {
+    display: inline-flex;
+    gap: 6px;
     margin: 8px 0 2px;
 }
 
@@ -211,7 +218,8 @@ body,
     line-height: 1.04;
 }
 
-.page-header h1 {
+.page-header h1,
+.post-title {
     font-family: var(--font-mono);
     font-size: clamp(2.15rem, 5.4vw, 3.3rem);
     font-weight: 800;
