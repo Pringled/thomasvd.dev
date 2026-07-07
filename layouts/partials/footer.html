@@ -1,4 +1,4 @@
-{{- if not (.Param "hideFooter") }}
+{{- if and (not .IsHome) (not (.Param "hideFooter")) }}
 <footer class="footer">
     {{- if not site.Params.footer.hideCopyright }}
         {{- if site.Copyright }}
